@@ -1,0 +1,25 @@
+[user]
+	name = Heitor Belloni
+	email = heitorbelloni.silvarodrigues@kpmg.co.uk
+[push]
+	default = current
+[diff]
+	tool = kdiff3
+[difftool]
+	prompt = false
+[difftool "kdiff3"]
+	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
+	trustexitcode = false
+[merge]
+	tool = kdiff3
+[mergetool]
+	keepbackup = false
+[mergetool "kdiff3"]
+	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
+	trustexitcode = false
+[core]
+	autocrlf = input
+	pager = less -FRSX
+
+[pull]
+	ff = only
